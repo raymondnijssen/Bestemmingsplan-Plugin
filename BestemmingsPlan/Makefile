@@ -44,11 +44,13 @@ PLUGINNAME = BestemmingsPlan
 
 PY_FILES = \
 	__init__.py \
-	bestemmings_plan.py bestemmings_plan_dialog.py
+	bestemmings_plan.py \
+	bestemmings_plan_dialog.py \
+	pdokgeocoder.py
 
 UI_FILES = bestemmings_plan_dialog_base.ui
 
-EXTRAS = metadata.txt icon.png
+EXTRAS = metadata.txt icon1.png
 
 EXTRA_DIRS =
 
