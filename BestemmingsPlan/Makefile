@@ -26,7 +26,7 @@
 #Add iso code for any locales you want to support here (space separated)
 # default is no locales
 # LOCALES = af
-LOCALES =
+LOCALES = nl
 
 # If locales are enabled, set the name of the lrelease binary on your system. If
 # you have trouble compiling the translations, you may have to specify the full path to
@@ -50,7 +50,8 @@ PY_FILES = \
 
 UI_FILES = bestemmings_plan_dialog_base.ui
 
-EXTRAS = metadata.txt icon1.png
+EXTRAS = metadata.txt \
+        icon.png
 
 EXTRA_DIRS =
 
