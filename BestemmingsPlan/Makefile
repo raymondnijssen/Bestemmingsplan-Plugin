@@ -53,7 +53,7 @@ UI_FILES = bestemmings_plan_dialog_base.ui
 EXTRAS = metadata.txt \
         icon.png
 
-EXTRA_DIRS =
+EXTRA_DIRS = styles
 
 COMPILED_RESOURCE_FILES = resources.py
 
@@ -116,6 +116,7 @@ deploy: compile doc transcompile
 	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
 	# Copy extra directories if any
+	cp -vfr $(EXTRA_DIRS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/$(EXTRA_DIRS)
   # (temporarily removed)
 
 

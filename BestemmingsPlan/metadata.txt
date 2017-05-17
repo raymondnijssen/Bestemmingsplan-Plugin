@@ -14,7 +14,7 @@ version=0.1
 author=Jos Rijborz
 email=ja.rijborz@zeeland.nl
 
-about=De Bestemmingsplan Plugin
+about=This plugin loads Dutch RO-online WFS zoning plans and displays them as layers  
 
 tracker=test
 repository=test
