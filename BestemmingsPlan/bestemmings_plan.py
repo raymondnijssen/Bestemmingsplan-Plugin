@@ -180,7 +180,7 @@ class BestemmingsPlan:
             callback=self.run,
             parent=self.iface.mainWindow())
 
-        plugdir = os.path.dirname(os.path.abspath(__file__)) + '/icon1.png'
+        plugdir = os.path.dirname(os.path.abspath(__file__)) + '/icon.png'
         icoontje = QIcon(plugdir)
         self.run_action = QAction(icoontje, \
             u"Bestemmingsplan Plugin", self.iface.mainWindow())
